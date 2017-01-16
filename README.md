@@ -46,9 +46,9 @@ spec:
     spec:
       containers:
       - name: nginx-socket
-        image: apsops/kube-nginx-websocket:v0.1
+        image: apsops/kube-nginx-websocket:v0.3
         ports:
-        - containerPort: 80
+        - containerPort: 8080
         env:
           - name: SOCKET_SERVER
             value: socket-service
