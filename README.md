@@ -1,6 +1,8 @@
 # kube-nginx-websocket
 Nginx container to load-balance websocket servers in Kubernetes
 
+‼️ **Note: At this point, I suggest checking the official [ingress-nginx#websockets](https://github.com/kubernetes/ingress-nginx#websockets) as well.**
+
 ## Getting Started
 This container is designed to be run in a pod in Kubernetes to proxy websocket requests to a socket server.
 You can provide following environment variables to customize it.
